@@ -14,6 +14,8 @@ class Chain:
     def extract_jobs(self, cleaned_text):
         prompt_extract = PromptTemplate.from_template(
             """
+
+            
             ### SCRAPED TEXT FROM WEBSITE:
             {page_data}
             ### INSTRUCTION:
