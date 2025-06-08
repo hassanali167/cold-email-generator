@@ -6,6 +6,7 @@ from portfolio import Portfolio
 from utils import clean_text
 
 
+
 def create_streamlit_app(llm, portfolio, clean_text):
     st.title("Wel Come To Technik Nest")
     st.title("📧 Cold Mail Generator")
