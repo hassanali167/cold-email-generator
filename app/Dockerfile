@@ -7,6 +7,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 8501
 
-# Command to run your application
+# Command to run your application Successfully
 CMD ["streamlit", "run", "main.py"]
 
