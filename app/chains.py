@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 class Chain:
     def __init__(self):
         """Initialize the Chain class with a language model."""
