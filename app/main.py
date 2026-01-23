@@ -24,7 +24,7 @@ def create_streamlit_app(llm, portfolio, clean_text):
                 email = llm.write_mail(job, links)
                 st.code(email, language='markdown')
         except Exception as e:
-            st.error(f"An Error Occurred: {e}")
+            st.error(f"An Error Occurred : {e}")
 
 
 if __name__ == "__main__":
